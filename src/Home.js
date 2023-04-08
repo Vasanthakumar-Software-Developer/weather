@@ -5,6 +5,7 @@ const Home=()=>{
     return(
     <>
      <h1>Home</h1>
+     {alert("Home")}
      <button onClick={()=>nav("/Profile")}>Profile</button>
     </>
     )
