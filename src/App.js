@@ -8,7 +8,7 @@ function App(props) {
     <>
   
   
-     <Router basename='/react'>
+     <Router >
       <Routes>
         
         <Route path="/" element={<Home />} />
