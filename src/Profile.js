@@ -153,8 +153,8 @@ const Profile=()=>{
     <>
     <center>
     <div class="wh">
-    <select id="arr"></select><button onClick={call} id="bt">Country</button><br></br>
-    <select id="ar"></select><button onClick={cal} id="bt">State</button><br></br>
+    <select id="arr"></select><button onClick={call} id="bt">State</button><br></br>
+    <select id="ar"></select><button onClick={cal} id="bt">City</button><br></br>
     <button onClick={cal1} id="ch">Check</button><button onClick={cal2} id="ch">Clear</button>
     </div><br></br>
     <div class="fr">
