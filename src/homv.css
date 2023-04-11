@@ -91,3 +91,56 @@
     display: flex;
     justify-content: center;
 }
+#arr{
+    width: 200px;
+    height: 30px;
+    margin-top: 100px;
+}
+#ar{
+    width: 200px;
+    height: 30px;
+    margin-top: 100px;
+}
+#btn{
+    padding: 20px;
+}
+.wh{
+    display: block;
+    
+}
+
+#bt{
+    margin-left: 10px;
+    background-image: linear-gradient(to left,red,yellow);
+    padding: 10px;
+    border-radius:10px;
+}
+#ch{
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px ;
+    background-image: linear-gradient(to left,red,rgb(4, 0, 255));
+}
+.nam{
+    margin-right: 100px;
+    margin-left: 40px;
+    float: left;
+    margin-top: 40px;
+    color:white;
+
+}
+#c{
+    margin-top: 110px;
+    font-size: 50px;
+}
+.fr{
+    display: flex;
+    
+    width: 550px;
+    height: 300px;
+    border-radius: 25px;
+    border: 5px solid rgb(255, 230, 0);
+    background-color: black;
+}

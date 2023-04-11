@@ -8,11 +8,11 @@ function App(props) {
     <>
   
   
-     <Router basename='/react'>
+     <Router >
       <Routes>
         
-        <Route path="/" element={<Home />} />
-        <Route path="/Profile" element={<Profile />} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="/" element={<Profile />} />
          {/* <Route path="/Admin"  element={<Admin />} />
         <Route path="/Apply" element={<Apply />} />
         <Route path="/" element={<Reg />} /> */}
