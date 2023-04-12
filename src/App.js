@@ -3,12 +3,12 @@ import './App.css';
 import {BrowserRouter as Router, Routes,Route } from "react-router-dom";
 import Home from './Home';
 import Profile from './Profile';
-function App(props) {
+function App() {
   return (
     <>
   
   
-     <Router >
+     <Router  basename='react'>
       <Routes>
         
         <Route path="/Home" element={<Home />} />
