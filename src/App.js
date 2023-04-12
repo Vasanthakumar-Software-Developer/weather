@@ -8,7 +8,7 @@ function App() {
     <>
   
   
-     <Router  basename='react'>
+     <Router  basename='weather'>
       <Routes>
         
         <Route path="/Home" element={<Home />} />
